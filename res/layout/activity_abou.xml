@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_abou"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pankaj.mymetro.AboutActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#7f1d5a">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/imageView3"
+                android:layout_weight="0.08"
+                android:src="@drawable/ab" />
+
+            <TextView
+                android:text="About Us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:weightSum="4"
+            android:background="#7f1d5a">
+
+            <TextView
+                android:text="terms and conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/background_light" />
+            <TextView
+                android:text="This app provides route, fare, interactive Delhi Metro Map/Google Map and Metro card recharge facility. all data has been obtained frome various sources including DMRC website. we have tried to make all data as accurate as possible, However no guarantee can be made and we can not be made liable for the same"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:text="Metro Card Recharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/background_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Application three way Metro Card Recharge facility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:textColor="@android:color/background_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="  1.  Using Paytm Application "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:textColor="@android:color/background_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="  2.  Using Paytm Website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22"
+                android:textColor="@android:color/background_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="  3.  Using DMRC Official Website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:textColor="@android:color/background_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

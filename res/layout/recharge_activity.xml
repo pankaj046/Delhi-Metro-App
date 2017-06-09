@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recharge_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pankaj.mymetro.RechargeActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#69c7b5">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/imageView3"
+                android:layout_weight="0.08"
+                android:src="@drawable/rech" />
+
+            <TextView
+                android:text="Recharge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:weightSum="4"
+            android:background="#69c7b5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/payrm1"
+                android:id="@+id/imageView6"
+                android:layout_margin="20dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="App"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app"
+                android:layout_margin="20dp"
+                android:textColor="#69c7b5"
+                android:textSize="18sp"
+                android:background="@android:color/white"
+                android:elevation="10dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="Paytm Web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/web"
+                android:layout_margin="20dp"
+                android:textColor="#69c7b5"
+                android:textSize="18sp"
+                android:background="@android:color/white"
+                android:elevation="10dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:text="Official Web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ofweb"
+                android:layout_margin="20dp"
+                android:textColor="#69c7b5"
+                android:textSize="18sp"
+                android:background="@android:color/white"
+                android:elevation="10dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

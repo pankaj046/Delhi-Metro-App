@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pankaj.mymetro.HelpActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#a24d86">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/helpicon"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/imageView3"
+                android:layout_weight="0.08" />
+
+            <TextView
+                android:text="Help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal|bold" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#a24d86"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:text="QUICK CONTACT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="DMRC Helpline Number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView13"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:text="011-155370"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView12"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light"
+                        android:autoLink="phone" />
+
+                    <TextView
+                        android:text="CONTACT INFORMATION"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView11"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:text="Metro Bhawan Fire Brigade Lane,"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView10"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:text="New Delhi - 110001, India "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:text="Board No. - 011-23417910"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView9"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:autoLink="phone"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Board No. - 011-23417912"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textV"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:autoLink="phone"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:text="Fax No. - 23417921"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView111"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:text="Nearest Metro Station to reach Metro Bhawan is Barakhama Road Metro Station on blue line of the Dwarka-Noida city center/ Vaishali corridor (Line 3 and 4)"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textVie1w9"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="The address of office of the Claims Commisioner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textVi1ew9"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="normal|bold" />
+                    <TextView
+                        android:text="Shri Satish Chandra,"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textV2iew9"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Claims Commisioner, "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textV4iew9"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Delhi Metro Rail Corporation Limited,"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/texdtView9"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Room No.1, Block B, Ground Floor,"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/te32xtView9"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+
+                    <TextView
+                        android:text="Delhi Metro IT Park, East Approach Road,"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tedf3"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Shastri Park, Delhi-110053."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tse3"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="For Lost and Found Section please contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/th3"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light"
+                        android:textStyle="normal|bold" />
+                    <TextView
+                        android:text="Near Station Control Room"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tfe3"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Kashmere Gate Metro Station"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t8e3"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Contact Number- Ph- 011-23860837 "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t6e3"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:autoLink="phone"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Mobile - 8527405555"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/te53"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:autoLink="phone"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Extn: 113701"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/te3"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Office timing -08:00 to 20:00 hrs."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/te23"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Office Close- Sunday and All National and Gazetted Holidays"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tdsdse23"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="Important-"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tedsds23"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="(i) Passengers may contact for enquiry of Lost and found articles after 48 hrs during office hrs."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tdsd23"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="(ii) Passengers must bring photocopy of any Id proof along with original to collect their articles."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tedsd23"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/background_light" />
+                    <TextView
+                        android:text="(iii) If the lost articles are not claimed within one month, deposited articles at Lost and Found office will be disposed off."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tsde23"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
